@@ -68,18 +68,3 @@ int CalculateRoundPoints(char shape, int win)
 
     return points + win;
 }
-
-char ConvertPlay(char play)
-{
-    switch (play)
-    {
-        case 'X':
-            return 'A';
-        case 'Y':
-            return 'B';
-        case 'Z':
-            return 'C';
-        default:
-            return 'D';
-    }
-}
